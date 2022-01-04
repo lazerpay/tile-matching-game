@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body{
+    overflow-x: hidden;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    background: #F12711;
+    background: -webkit-linear-gradient(to right, #F12711 0%, #f5af19 100%);
+    background: -moz-linear-gradient(to right, #F12711 0%, #f5af19 100%);
+    background: linear-gradient(to right, #F12711 0%, #f5af19 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Chewy', cursive;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.rank-super-container{
+    width: 60vw;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.rank-header-container{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 5px 7px 5px;
+    border-bottom: 2px solid #f5af19;
+}
+
+.rank-player-header-container{
+    width: 23%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stats-header-container{
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.rank-number-container{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 5px 10px 5px;
+    margin-top: 20px;
+}
+
+.rank-player-number-container{
+    width: 23%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stats-number-container{
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.center{
+    width: 50%;
+    text-align: center;
+}
+
+.stat-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+    color: #f5af19;
+}
+
+.rank-container-per-time{
+    margin-bottom: 50px;
+}
+
+.rank-container-per-tiles{
+    margin-bottom: 70px;
+}

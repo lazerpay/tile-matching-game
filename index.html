@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="left-container"></div>
+
+    <div class="mid-container">
+        <h1>Tile Flip</h1>
+        <div class="theme-container">
+            <h2>Select a theme</h2>
+            <div class="radio-btn-container">
+                <label class="btn-container sports">Sports
+                    <input type="radio" value="sports" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="btn-container supercars">Supercars
+                    <input type="radio" value="supercars" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+        <div class="btn-start-container">
+            <a onclick="handleClick()" class="btn-start">Start</a>
+        </div>
+    </div>
+
+    <div class="right-container">
+        <a class="leaderboard-link" href="/leaderboard.html">Leaderboards</a>
+    </div>
+
+
+
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>

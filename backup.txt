@@ -1,0 +1,19 @@
+//Store the image sources in an array
+const srcArray = [
+    "/assets/supercars/1.png",
+    "/assets/supercars/1.png",
+    "/assets/supercars/2.png",
+    "/assets/supercars/2.png",
+    "/assets/supercars/3.png",
+    "/assets/supercars/3.png",
+    "/assets/supercars/4.png",
+    "/assets/supercars/4.png",
+    "/assets/supercars/5.png",
+    "/assets/supercars/5.png",
+    "/assets/supercars/6.png",
+    "/assets/supercars/6.png",
+    "/assets/supercars/7.png",
+    "/assets/supercars/7.png",
+    "/assets/supercars/8.png",
+    "/assets/supercars/8.png",
+];
